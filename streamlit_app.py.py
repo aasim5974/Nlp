@@ -211,5 +211,3 @@ top_terms = get_top_terms_per_cluster(kmeans, feature_names)
 
 for cluster, terms in top_terms.items():
     print(f"Cluster {cluster + 1}: {', '.join(terms)}")
-
-pip install streamlit
